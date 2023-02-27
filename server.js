@@ -10,7 +10,7 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 const sess = {
-    secret: 'My Super Pass',
+    secret: '',
     cookie: {},
     resave: false,
     saveUninitialized: true,
